@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OWD.ProductApi", "OWD.ProductApi\OWD.ProductApi.csproj", "{9D8E218A-5ADF-4E9E-8E96-9939BF480168}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{DA7718C1-A10B-4989-ABFD-E7D258356864}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OWD.CustomerApi", "OWD.CustomerApi\OWD.CustomerApi.csproj", "{83B9EA81-21C6-4514-8A1A-90FA0EF1BC2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OWD.GatewayApi", "OWD.GatewayApi\OWD.GatewayApi.csproj", "{D55D8FD6-5D3A-4DAB-BF4F-02C63D3C4460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OWD.Web", "OWD.Web\OWD.Web.csproj", "{D5AC4CE3-106F-4788-BFBC-04EC94748D52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D8E218A-5ADF-4E9E-8E96-9939BF480168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D8E218A-5ADF-4E9E-8E96-9939BF480168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D8E218A-5ADF-4E9E-8E96-9939BF480168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D8E218A-5ADF-4E9E-8E96-9939BF480168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA7718C1-A10B-4989-ABFD-E7D258356864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA7718C1-A10B-4989-ABFD-E7D258356864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA7718C1-A10B-4989-ABFD-E7D258356864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA7718C1-A10B-4989-ABFD-E7D258356864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B9EA81-21C6-4514-8A1A-90FA0EF1BC2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B9EA81-21C6-4514-8A1A-90FA0EF1BC2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B9EA81-21C6-4514-8A1A-90FA0EF1BC2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B9EA81-21C6-4514-8A1A-90FA0EF1BC2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D55D8FD6-5D3A-4DAB-BF4F-02C63D3C4460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D55D8FD6-5D3A-4DAB-BF4F-02C63D3C4460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D55D8FD6-5D3A-4DAB-BF4F-02C63D3C4460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D55D8FD6-5D3A-4DAB-BF4F-02C63D3C4460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5AC4CE3-106F-4788-BFBC-04EC94748D52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5AC4CE3-106F-4788-BFBC-04EC94748D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5AC4CE3-106F-4788-BFBC-04EC94748D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5AC4CE3-106F-4788-BFBC-04EC94748D52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8A044FD-7488-4381-9F80-1F22FA1B5C5D}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://alihangokdemir.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = OWD.CustomerApi\\OWD.CustomerApi.csproj
+		SccProjectName1 = OWD.CustomerApi
+		SccLocalPath1 = OWD.CustomerApi
+		SccProjectUniqueName2 = OWD.GatewayApi\\OWD.GatewayApi.csproj
+		SccProjectName2 = OWD.GatewayApi
+		SccLocalPath2 = OWD.GatewayApi
+		SccProjectUniqueName3 = OWD.ProductApi\\OWD.ProductApi.csproj
+		SccProjectName3 = OWD.ProductApi
+		SccLocalPath3 = OWD.ProductApi
+		SccProjectUniqueName4 = OWD.Web\\OWD.Web.csproj
+		SccProjectName4 = OWD.Web
+		SccLocalPath4 = OWD.Web
+	EndGlobalSection
+EndGlobal

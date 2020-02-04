@@ -1,0 +1,25 @@
+version: '3.4'
+
+services:
+  owd.productapi:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+
+  owd.customerapi:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+
+
+  owd.gatewayapi:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+
+
+  owd.web:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+

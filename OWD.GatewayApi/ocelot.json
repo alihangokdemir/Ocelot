@@ -1,0 +1,31 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/product",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "owd.productapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/product-service/product",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/customer",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "owd.customerapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/customer-service/customer",
+      "UpstreamHttpMethod": [ "GET" ]
+    }
+
+  ],
+  "GlobalConfiguration": {
+  }
+}

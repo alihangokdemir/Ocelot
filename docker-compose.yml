@@ -1,0 +1,38 @@
+version: '3.4'
+
+services:
+  owd.productapi:
+    image: ${DOCKER_REGISTRY-}owdproductapi
+    build:
+      context: .
+      dockerfile: OWD.ProductApi/Dockerfile
+    ports:
+    - "63336:80"
+      
+  owd.customerapi:
+    image: ${DOCKER_REGISTRY-}owdcustomerapi
+    build:
+      context: .
+      dockerfile: OWD.CustomerApi/Dockerfile
+    ports:
+    - "51629:80"
+
+
+  owd.gatewayapi:
+    image: ${DOCKER_REGISTRY-}owdgatewayapi
+    build:
+      context: .
+      dockerfile: OWD.GatewayApi/Dockerfile
+    ports:
+    - "53052:80"
+    depends_on:
+      - owd.productapi
+      - owd.customerapi
+  owd.web:
+    image: ${DOCKER_REGISTRY-}owdweb
+    build:
+      context: .
+      dockerfile: OWD.Web/Dockerfile
+    ports:
+    - "52260:80"
+
